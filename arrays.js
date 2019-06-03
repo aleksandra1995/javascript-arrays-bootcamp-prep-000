@@ -20,4 +20,6 @@ function removeElementFromBeginningOfArray(array)
 { return array.slice(1)
 }
 function destructivelyRemoveElementFromEndOfArray (array)
-{ return array.pop(3) }
+{ array.pop(3) 
+  return array
+}
